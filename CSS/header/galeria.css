@@ -1,0 +1,36 @@
+div.gallery {
+    padding: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 25px;
+    background-color: white;
+    
+  }
+  
+  div.gallery:hover {
+    border: 1px solid #777;
+  }
+  
+  div.gallery img {
+    width: 100%;
+    height: auto;
+    
+  }
+  
+  div.desc {
+    padding: 15px;
+    text-align: center;
+    
+  }
+div.galeria_maior{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+div a {
+  color: blue;
+}
